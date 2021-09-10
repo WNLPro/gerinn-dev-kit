@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDate (Lunar)
+
++ (NSArray<NSString *> *)lunnarDays;
+
 /**
  返回当前日期是否是中国农历闰月
 
