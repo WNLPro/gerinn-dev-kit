@@ -132,6 +132,10 @@
     return Lunar.instance.Day;
 }
 
++ (NSArray<NSString *> *)lunnarMonths {
+    return Lunar.instance.Month;
+}
+
 - (NSDate *)lunar_lastMonthSameDay
 {
     NSCalendar *c = [Lunar instance].chineseLunarCalendar;
